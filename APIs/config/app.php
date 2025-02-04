@@ -1,5 +1,7 @@
 <?php
 
+
+
 return [
 
     /*
@@ -14,6 +16,12 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+
+    'providers' => [
+    // Other service providers...
+    App\Providers\RouteServiceProvider::class,
+],
+
 
     /*
     |--------------------------------------------------------------------------
